@@ -1,0 +1,45 @@
+body{
+    background-color:  rgba(255,233,110,0.2);
+    user-select: none;
+}
+
+.container{
+    max-width: 320px;
+    margin: 50px auto;
+}
+
+#input-text{
+    margin: 15px 0;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color:  #ffe96e;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #c2b8af;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #fd9484;
+}
+
+.btn-primary:active{
+    background-color: #fd9484 !important;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.list-group li{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done-btn{
+    max-width: 25vw;
+}
