@@ -66,7 +66,7 @@ document.addEventListener('click', (event) => {
     if (event.target.classList.contains('delete-icon')) {
         console.log('deleted-icon clicked');
         const listItem = event.target.closest('li');
-        const itemVal = listItem.textContent.trim(); // Trim whitespace from the text content
+        const itemVal = listItem.textContent; // Trim whitespace from the text content
         list.removeChild(listItem);
 
         // Remove the item from Firebase based on its value
